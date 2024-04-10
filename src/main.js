@@ -121,26 +121,31 @@
 //     console.log(nome[index]);-
 // }
 
-let salario = 4300;
-if (salario <= 1556.94) {
-  salario -= (8 * salario) / 100;
-} else if (salario >= 1556.95 && salario <= 2594.92) {
-  salario -= (9 * salario) / 100;
-} else if (salario >= 2594.93 && salario <= 5189.82) {
-  salario -= (11 * salario) / 100;
-} else if (salario > 5189.82) {
-  salario -= 570.88;
-}
+// let salario = 4300;
+// if (salario <= 1556.94) {
+//   salario -= (8 * salario) / 100;
+// } else if (salario >= 1556.95 && salario <= 2594.92) {
+//   salario -= (9 * salario) / 100;
+// } else if (salario >= 2594.93 && salario <= 5189.82) {
+//   salario -= (11 * salario) / 100;
+// } else if (salario > 5189.82) {
+//   salario -= 570.88;
+// }
 
-if (salario <= 1903.98) {
-  salario -= 0;
-} else if (salario >= 1903.99 && salario <= 2826.65) {
-  salario -= (7.5 * salario) / 100 - 142.8;
-} else if (salario >= 2826.66 && salario <= 3751.05) {
-  salario -= (15 * salario) / 100 - 354.8;
-} else if (salario >= 3751.06 && salario <= 4664.68) {
-  salario -= (22.5 * salario) / 100 - 636.13;
-} else if (salario > 4664.68) {
-  salario -= (27.5 * salario) / 100 - 869.36;
-}
-console.log(salario)
+// if (salario <= 1903.98) {
+//   salario -= 0;
+// } else if (salario >= 1903.99 && salario <= 2826.65) {
+//   salario -= (7.5 * salario) / 100 - 142.8;
+// } else if (salario >= 2826.66 && salario <= 3751.05) {
+//   salario -= (15 * salario) / 100 - 354.8;
+// } else if (salario >= 3751.06 && salario <= 4664.68) {
+//   salario -= (22.5 * salario) / 100 - 636.13;
+// } else if (salario > 4664.68) {
+//   salario -= (27.5 * salario) / 100 - 869.36;
+// }
+// console.log(salario)
+
+const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let index = 0; index < numbers.length; index += 1) {
+  console.log(numbers[index]);
+} 
