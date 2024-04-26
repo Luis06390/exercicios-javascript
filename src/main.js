@@ -146,6 +146,13 @@
 // console.log(salario)
 
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// for (let index = 0; index < numbers.length; index += 2) {
+//   console.log(numbers[index]);
+// } 
+// for percorre o indice 0 dps verifica se o indice percorrido é menor que o comprimento d lista e mostra no terminal (console.log), caso 
+// for menor ele percorre oproximo indice da lista  
+let soma = 0;
 for (let index = 0; index < numbers.length; index += 1) {
-  console.log(numbers[index]);
-} 
+    soma += numbers[index];
+}
+console.log(soma);
