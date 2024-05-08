@@ -151,8 +151,27 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // } 
 // for percorre o indice 0 dps verifica se o indice percorrido é menor que o comprimento d lista e mostra no terminal (console.log), caso 
 // for menor ele percorre oproximo indice da lista  
-let soma = 0;
+// let soma = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     soma += numbers[index];
+// }
+// console.log(soma);
+
+// let soma = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     soma += numbers[index];
+// }
+// const media = soma / numbers.length;
+// console.log(media);
+// if (media > 20) {
+//     console.log('O valor da média aritmética é maior que 20');
+// } else {
+//     console.log('o valor da média aritmética é menor ou igual que 20');
+// }
+let maior = 0;
 for (let index = 0; index < numbers.length; index += 1) {
-    soma += numbers[index];
+    if (numbers[index] > maior) {
+        maior = numbers[index];       
+    } 
 }
-console.log(soma);
+console.log(maior);
