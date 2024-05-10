@@ -168,10 +168,11 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // } else {
 //     console.log('o valor da média aritmética é menor ou igual que 20');
 // }
-let maior = 0;
-for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] > maior) {
-        maior = numbers[index];       
-    } 
-}
-console.log(maior);
+// let maior = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] > maior) {
+//         maior = numbers[index];       
+//     } 
+// }
+// console.log(maior);
+
