@@ -145,7 +145,7 @@
 // }
 // console.log(salario)
 
-const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // for (let index = 0; index < numbers.length; index += 2) {
 //   console.log(numbers[index]);
 // } 
@@ -176,3 +176,12 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 // console.log(maior);
 
+// let impar = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] % 2 !== 0) {
+//         impar += 1;
+//     }
+// } 
+// console.log(impar);
+
+// se o resto da divisao do numero corrente por 2 for diferente de 0 entao ele e impar 
