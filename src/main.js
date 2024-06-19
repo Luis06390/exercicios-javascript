@@ -145,11 +145,12 @@
 // }
 // console.log(salario)
 
-const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // for (let index = 0; index < numbers.length; index += 2) {
 //   console.log(numbers[index]);
 // } 
-// for percorre o indice 0 dps verifica se o indice percorrido é menor que o comprimento d lista e mostra no terminal (console.log), caso 
+// for percorre o indice 0 dps verifica se o indice percorrido é menor que o comprimento d lista e mostra no 
+// terminal (console.log), caso 
 // for menor ele percorre oproximo indice da lista  
 // let soma = 0;
 // for (let index = 0; index < numbers.length; index += 1) {
@@ -168,10 +169,60 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // } else {
 //     console.log('o valor da média aritmética é menor ou igual que 20');
 // }
-let maior = 0;
-for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] > maior) {
-        maior = numbers[index];       
-    } 
-}
-console.log(maior);
+// let maior = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] > maior) {
+//         maior = numbers[index];       
+//     } 
+// }
+// console.log(maior);
+// let impar = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     impar += numbers[index] % 2;
+// }
+// console.log(impar);
+
+// let num = 1;
+// const fatorial = 5;
+// for (let index = 0; index < fatorial; index += 1) {
+//     num *= fatorial - index;
+// }
+// console.log(num);
+
+// const word = 'paralelepípedo';
+// const chars = word.split('');
+// chars.reverse();
+// const juntar = chars.join('');
+// console.log(juntar);
+
+// const num = 10;
+// let quadrado = '';
+
+// for (let index = 0; index < num; index += 1) {
+// quadrado += '*';
+// }
+// for (let index = 0; index < num; index += 1) {
+// console.log(quadrado);
+// }
+
+// const num = 7;
+// let quadrado = '';
+// for (let index = 0; index < num; index += 1) {
+// quadrado += '*';
+// console.log(quadrado);
+// }
+
+// const num = 10000;
+// 
+// for (let index = 1; index <= num; index += 1) {
+    // let quadrado = '';
+    // 
+    // for (let indice = 0; indice < num - index; indice += 1) { 
+        // quadrado += ' ';
+    // }
+    // 
+    // for (let indice = 0; indice < index; indice += 1) {
+        // quadrado += '*';
+    // }
+    // console.log(quadrado);
+// }
