@@ -216,32 +216,78 @@
 
 // const num = 10;
 // let quadrado = '';
-
+ 
 // for (let index = 0; index < num; index += 1) {
-// quadrado += '*';
+//     quadrado += '*';
 // }
 // for (let index = 0; index < num; index += 1) {
-// console.log(quadrado);
+//     console.log(quadrado);
 // }
 
 // const num = 7;
 // let quadrado = '';
 // for (let index = 0; index < num; index += 1) {
-// quadrado += '*';
-// console.log(quadrado);
+//     quadrado += '*';
+//     console.log(quadrado);
 // }
 
-// const num = 10000;
-// 
+// const num = 5;
+ 
 // for (let index = 1; index <= num; index += 1) {
-    // let quadrado = '';
-    // 
-    // for (let indice = 0; indice < num - index; indice += 1) { 
-        // quadrado += ' ';
-    // }
-    // 
-    // for (let indice = 0; indice < index; indice += 1) {
-        // quadrado += '*';
-    // }
-    // console.log(quadrado);
+//     let quadrado = '';
+      
+//     for (let indice = 0; indice < num - index; indice += 1) { 
+//         quadrado += ' ';
+//     }
+     
+//     for (let indice = 0; indice < index; indice += 1) {
+//         quadrado += '*';
+//     }
+//     console.log(quadrado);
 // }
+
+// function invertedorDeStrings(palavra) {
+//     let stringInvertida = '';
+//     for (let index = 0; index < palavra.length; index += 1) {
+//         stringInvertida = palavra[index] + stringInvertida;
+//     }  
+//     return stringInvertida;      
+// }
+// console.log(invertedorDeStrings('um macaco q nn alcança a banana fala q ela ta podi'));
+
+// function invertedorDeStrings(palavra) {
+//     const chars = palavra.split('');
+//     chars.reverse();
+//     const juntar = chars.join(''); 
+//     return juntar;
+// }
+// console.log(invertedorDeStrings('quarenta'));
+
+// function invertedorDeStrings(palavra) {
+//     const chars = palavra.split('');
+//     chars.reverse();
+//     const juntar = chars.join(''); 
+//     return juntar;
+// }
+// function verificador(verificante) {
+//     const palavra2 = invertedorDeStrings(verificante);
+//     console.log(palavra2);
+//     if (palavra2 === verificante) {
+//         return true; 
+//     }
+//     return false; 
+// }
+   
+// console.log(verificador('dias')); 
+const time = ['galo', 'real madri', 'flamengo'];
+function maior(lista) {
+    let armazem = 0;
+    for (let index = 0; index < lista.length; index += 1) {
+        if (lista[index].length > lista[armazem].length) {
+            armazem = index;
+        }
+    }
+    return armazem;
+}   
+console.log(maior(time));
+vc travou viu nn t eouço
